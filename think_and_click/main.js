@@ -107,7 +107,7 @@ play.addEventListener("click", function () {
                     document.getElementById("playagain").style.display = "flex"
                     // document.getElementById("playagain").style.display = "flex"
                     document.getElementById("playagain").addEventListener("click", function () {
-                        window.location.href = "https://www.google.com"
+                        window.location.href = "https://theprajwaldongare.github.io/web_works/think_and_click"
                         // console.log("reset the game")
                     })
                     document.getElementById("main").innerHTML = `<style>
