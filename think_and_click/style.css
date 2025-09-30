@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    /* rgb(29, 52, 49) */
+}
+
+.hed {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.heading {
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+}
+
+.main {
+    width: 300px;
+    height: 300px;
+    /* width: 50vw;
+    height: 50vh; */
+    background-color: rgb(203, 203, 206);
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+
+
+
+}
+
+.r1 {
+    /* background-color: aqua; */
+    height: 80px;
+    margin: 10px;
+    display: flex;
+}
+
+.r2 {
+    /* background-color: rgb(50, 93, 93); */
+    height: 80px;
+    margin: 10px;
+    display: flex;
+}
+
+.r3 {
+    /* background-color: rgb(22, 152, 152); */
+    height: 80px;
+    margin: 10px;
+    display: flex;
+}
+
+.crl {
+
+    width: 70px;
+    height: 70px;
+    background-color: rgb(82, 128, 108);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.com {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    /* color: antiquewhite; */
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 50px;
+    background-color: aqua;
+
+}
+
+.playagain {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+
+}
+
+.plyagn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 14px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    color: white;
+    font-size: 30px;
+}
+
+.hint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hnt {
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid darkseagreen;
+    border-radius: 20px;
+}
+
+.exm {
+    color: red;
+      }
