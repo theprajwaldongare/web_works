@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" type="image/x-icon" href="/Icons/weather-app.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=search" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+    <div class="loading" id="loading">
+        <div class="loader"></div>
+    </div>
+    <div class="app" id="app">
+        <div class="cont">
+            <div class="main">
+                <div class="inpbox">
+                    <input type="text" class="inp" id="inp" autocomplete="off">
+                    <span class="material-symbols-outlined srch" id="srch">
+                        search
+                    </span>
+                </div>
+
+                <div class="weatherdetail" id="weatherdetail" >
+                    Sunny
+                </div>
+
+                <div class="temp" id="temp">
+                    <div class="tmp" id="tmp">32 ℃</div>
+                    <div class="convert"><img src="Icons/fahrenheit.png" alt="" class="imgconv" id="imgconv"></div>
+                </div>
+
+
+
+                <div class="addons">
+                    <div class="humidity">
+                        <div class="humidityicon"><img src="Icons/humidity.png" alt="" class="humidityiconimg"></div>
+                        <div class="humidityhere">
+                            <div class="humiditytext">Humidity</div>
+                            <div class="humidityvalue" id="humidityvalue">21%</div>
+                        </div>
+                    </div>
+                    <div class="cloudover">
+                        <div class="cloudovericon"><img src="Icons/cloud.png" alt="" class="cloudovericonimg"></div>
+                        <div class="cloudoverhere">
+                            <div class="cloudovertext">Cloudcover</div>
+                            <div class="cloudovervalue" id="cloudovervalue">21%</div>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <div class="windicon"><img src="Icons/wind.png" alt="" class="windiconimg"></div>
+                        <div class="windhere">
+                            <div class="windtext">Wind Speed</div>
+                            <div class="windvalue" id="windvalue">21%</div>
+                        </div>
+                    </div>
+                    <div class="pressure">
+                        <div class="pressureicon"><img src="Icons/pressure.png" alt="" class="pressureiconimg"></div>
+                        <div class="pressurehere">
+                            <div class="pressuretext">Pressure</div>
+                            <div class="pressurevalue" id="pressurevalue">21%</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="addons2">
+                    <div class="visiblity">
+                        <div class="visiblityicon"><img src="Icons/visibility.png" alt="" class="visiblityiconimg">
+                        </div>
+                        <div class="visiblityhere">
+                            <div class="visiblitytext">Visiblity</div>
+                            <div class="visiblityvalue" id="visiblityvalue">21%</div>
+                        </div>
+                    </div>
+                    <div class="uvindex">
+                        <div class="uvindexicon"><img src="Icons/uv-index.png" alt="" class="uvindexiconimg"></div>
+                        <div class="uvindexhere">
+                            <div class="uvindextext">UV Index</div>
+                            <div class="uvindexvalue" id="uvindexvalue">21%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place">
+                    <div class="placeval">
+                        <span><img src="Icons/map.png" alt="" class="map"></span>
+                        <div class="textregion">
+                            <span class="mapdetail" id="map">Pune, Maharashtra</span>
+                            <div class="country">
+                                <div class="countryval" id="countryval">India</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>

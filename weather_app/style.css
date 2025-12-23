@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.body {
+    /* background: url("Icons/backkground.jpg"); */
+}
+
+.cont {
+    /* background-image: url("Icons/backkground.jpg"); */
+    background: #d4bae6;
+    background: linear-gradient(90deg, rgba(212, 186, 230, 1) 0%, rgba(217, 169, 169, 1) 50%, rgba(224, 202, 171, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main {}
+
+.inptext {
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.inpbox {
+    display: flex;
+    width: 240px;
+    height: 36px;
+}
+
+.inp {
+    flex: 1;
+    padding: 4px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.inpbox,
+.inp {
+    /* width: 240px;
+    height: 36px; */
+    background-color: rosybrown;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #000000;
+    border: none;
+}
+
+.srch {
+    margin-top: 10px;
+    color: black;
+
+}
