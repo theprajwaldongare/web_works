@@ -105,7 +105,7 @@ for (let i = 1; i <= 16; i++) {
   x = Math.floor((i - 1) / 4)
   y = (i - 1) % 4
   let txtt = weDontKnow[x][y]
-  document.getElementById("c" + (i)).innerHTML = `<img src="Images/${selected}/${txtt}.jpg" alt="" />`
+  document.getElementById("c" + (i)).innerHTML = `<img src="images/${selected}/${txtt}.jpg" alt="" />`
 
 }
 setTimeout(() => {
@@ -137,7 +137,7 @@ for (let i = 1; i <= 16; i++) {
       let txtt = weDontKnow[x][y]
       // firstCard=document.getElementById("c"+(i))
       firstCard = currentCard
-      firstCard.innerHTML = `<img src="Images/${selected}/${txtt}.jpg" alt="" />`
+      firstCard.innerHTML = `<img src="images/${selected}/${txtt}.jpg" alt="" />`
 
       cname = weDontKnow[x][y]
       crd++
@@ -146,7 +146,7 @@ for (let i = 1; i <= 16; i++) {
       let txtt = weDontKnow[x][y]
       // secondCard=document.getElementById("c"+(i))
       secondCard = currentCard
-      secondCard.innerHTML = `<img src="Images/${selected}/${txtt}.jpg" alt="" />`
+      secondCard.innerHTML = `<img src="images/${selected}/${txtt}.jpg" alt="" />`
 
       if (cname == weDontKnow[x][y]) {
 
