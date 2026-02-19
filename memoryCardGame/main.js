@@ -116,7 +116,7 @@ setTimeout(() => {
     document.getElementById("c" + (i)).innerHTML = ""
   }
 
-}, 2000)
+}, 4000)
 
 
 let crd = 0
